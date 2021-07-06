@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
 .flex {
   display: flex;
 }
@@ -94,4 +112,74 @@
   font-size: 0.8em;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/*-- Common in Every pages --*/
+/*-- Navigation section --*/
+#nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#nav .container {
+  justify-content: space-between;
+  align-items: center;
+}
+#nav .logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: black;
+}
+#nav .btn-primary {
+  margin-left: 40px;
+}
+#nav .nav-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+#nav .nav-links {
+  margin-left: auto;
+}
+#nav .nav-links li a {
+  color: black;
+  transition: 0.2s;
+}
+#nav .nav-links li a:hover {
+  color: orange;
+}
+
+/*-- Hero section --*/
+#hero h1 {
+  margin: 25px 0;
+  font-size: 2.2em;
+}
+#hero .container {
+  align-items: center;
+}
+#hero img {
+  width: 400px;
+  margin-left: 80px;
+}
+#hero .p-txt {
+  margin: 40px auto;
+}
+
+/*-- Footer --*/
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: black;
+}
+footer h1 {
+  color: white;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+footer {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
