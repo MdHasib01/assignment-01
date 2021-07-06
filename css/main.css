@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/*-- Navigation section --*/
+#nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#nav .container {
+  justify-content: space-between;
+  align-items: center;
+}
+#nav .logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: black;
+}
+#nav .btn-primary {
+  margin-left: 40px;
+}
+#nav .nav-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+#nav .nav-links {
+  margin-left: auto;
+}
+#nav .nav-links li a {
+  color: black;
+  transition: 0.2s;
+}
+#nav .nav-links li a:hover {
+  color: orange;
+}
+
+/*-- Hero section --*/
+#hero h1 {
+  margin: 25px 0;
+  font-size: 2.2em;
+}
+#hero .container {
+  align-items: center;
+}
+#hero img {
+  width: 400px;
+  margin-left: 80px;
+}
+#hero .p-txt {
+  margin: 40px auto;
+}
+
+/*-- About Section --*/
+#about {
+  background-image: url(../images/bg-hero.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 50px;
+}
+#about img {
+  width: 369px;
+  margin-left: 80px;
+}
+#about .container {
+  align-items: center;
+}
+#about .p-txt {
+  margin: 60px auto;
+  line-height: 24px;
+}
+#about .btn-primary {
+  margin-top: 30px;
+}
+
+/*-- Recipies --*/
+#recp {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#recp .up-head {
+  text-align: center;
+  max-width: 600px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+#recp .up-head .p-txt {
+  margin: 20px auto;
+}
+#recp .sub-head {
+  text-transform: uppercase;
+  margin: 10px auto;
+}
+
+/*-- social response --*/
+#s-resp .container {
+  justify-content: space-between;
+  padding: 30px 40px;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.568);
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/*-- Footer --*/
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: black;
+}
+footer h1 {
+  color: white;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+footer {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
