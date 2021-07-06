@@ -94,15 +94,7 @@ li {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-#recp .up-head {
-  text-align: center;
-  max-width: 600px;
-  margin-left: 50%;
-  transform: translate(-50%);
-}
-#recp .up-head .p-txt {
-  margin: 20px auto;
-}
+
 #recp .sub-head {
   text-transform: uppercase;
   margin: 10px auto;
@@ -117,6 +109,30 @@ li {
   border: none;
   margin-bottom: 50px;
   text-align: center;
+}
+/*--blog--*/
+#blog-sec {
+  margin-top: 100px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 166, 0, 0.1),
+    rgba(255, 99, 71, 0.1)
+  );
+}
+#blog-sec .blog-card {
+  margin-bottom: 30px;
+}
+#blog-sec .btn-more {
+  margin-top: 20px;
+}
+#blog-sec p {
+  margin: 10px auto;
+}
+#blog-sec .center-btn {
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 40px;
 }
 /*-- Footer --*/
 footer {

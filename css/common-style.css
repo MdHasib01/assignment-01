@@ -54,4 +54,44 @@
 .recp-card img {
   width: 280px;
   border-radius: 20px;
+  height: 220px;
+}
+.up-head {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.up-head .p-txt {
+  margin: 20px auto;
+}
+
+.blog-card {
+  background-color: #fff;
+  content: "";
+  clear: both;
+  display: table;
+  padding: 10px;
+  box-shadow: 5px 5px 15px gray;
+}
+.blog-card img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+/*--Button-More--*/
+.btn-more {
+  background-color: white;
+  border: 2px solid black;
+
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.btn-more a {
+  color: black;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
