@@ -58,9 +58,8 @@ li {
 .recp-card {
   width: 300px;
   align-items: center;
-  text-align: center;
   height: 450px;
-  padding: 10px;
+  padding: 15px;
   background-color: white;
   border-radius: 20px;
   border: none;
@@ -73,6 +72,10 @@ li {
   width: 280px;
   border-radius: 20px;
   height: 220px;
+}
+.recp-card p {
+  text-align: justify;
+  font-size: 0.9em;
 }
 .up-head {
   text-align: center;
